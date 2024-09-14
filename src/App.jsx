@@ -1,21 +1,21 @@
 import React from "react";
-import Leftsidebar from "./components/Leftsidebar";
-import Maincontent from "./components/Maincontent";
-import Navbar from "./components/Navbar";
-import Rightsidebar from "./components/Rightsidebar";
-import "./styles.css";
+import Leftsidebar from "./components/Leftsidebar"
+import Maincontent from "./components/Maincontent"
+import Rightsidebar from "./components/Rightsidebar"
+import './App.css'; // Arquivo CSS
 
 export default function App() {
   return (
-    <>
-      <Navbar />
-      <div className="container-fluid gedf-wrapper">
-        <div className="row">
-          <Leftsidebar />
-          <Maincontent />
-          <Rightsidebar />
-        </div>
+    <div className="container">
+      <div className="column left-sidebar">
+        <Leftsidebar />
       </div>
-    </>
+      <div className="column main-content">
+        <Maincontent />
+      </div>
+      <div className="column right-sidebar">
+        <Rightsidebar />
+      </div>
+    </div>
   );
 }

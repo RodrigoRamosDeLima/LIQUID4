@@ -1,0 +1,129 @@
+.main-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .main-card-header {
+    border-bottom: 1px solid #eaeaea;
+    padding: 15px;
+  }
+  
+  .nav-tabs {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .nav-link.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .nav-link:hover {
+    background-color: #e9ecef;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .custom-file {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-file-input {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .custom-file-label {
+    margin-left: 10px;
+  }
+  
+  .btn-toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  .btn-group {
+    display: flex;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-link {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: none;
+    background-color: white;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #eaeaea;
+  }
+  
+  .btn-group:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  

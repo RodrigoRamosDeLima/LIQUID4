@@ -1,57 +1,30 @@
 import React from "react";
 import Feed from "./Feed";
+import './Maincontent.css'; // Importa o arquivo CSS
 
 export default function Maincontent() {
   return (
     <>
-      <div className="col-md-6 gedf-main">
-        <div className="card gedf-card">
-          <div className="card-header">
-            <ul
-              className="nav nav-tabs card-header-tabs"
-              id="myTab"
-              role="tablist"
-            >
+      <div className="main-content">
+        <div className="main-card">
+          <div className="main-card-header">
+            <ul className="nav-tabs">
               <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  id="posts-tab"
-                  data-toggle="tab"
-                  href="#posts"
-                  role="tab"
-                  aria-controls="posts"
-                  aria-selected="true"
-                >
+                <a className="nav-link active" id="posts-tab" href="#posts" role="tab">
                   Make a publication
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  id="images-tab"
-                  data-toggle="tab"
-                  role="tab"
-                  aria-controls="images"
-                  aria-selected="false"
-                  href="#images"
-                >
+                <a className="nav-link" id="images-tab" href="#images" role="tab">
                   Images
                 </a>
               </li>
             </ul>
           </div>
           <div className="card-body">
-            <div className="tab-content" id="myTabContent">
-              <div
-                className="tab-pane fade show active"
-                id="posts"
-                role="tabpanel"
-                aria-labelledby="posts-tab"
-              >
+            <div className="tab-content">
+              <div className="tab-pane active" id="posts" role="tabpanel">
                 <div className="form-group">
-                  <label className="sr-only" for="message">
-                    post
-                  </label>
                   <textarea
                     className="form-control"
                     id="message"
@@ -60,12 +33,7 @@ export default function Maincontent() {
                   ></textarea>
                 </div>
               </div>
-              <div
-                className="tab-pane fade"
-                id="images"
-                role="tabpanel"
-                aria-labelledby="images-tab"
-              >
+              <div className="tab-pane" id="images" role="tabpanel">
                 <div className="form-group">
                   <div className="custom-file">
                     <input
@@ -73,35 +41,28 @@ export default function Maincontent() {
                       className="custom-file-input"
                       id="customFile"
                     />
-                    <label className="custom-file-label" for="customFile">
+                    <label className="custom-file-label" htmlFor="customFile">
                       Upload image
                     </label>
                   </div>
                 </div>
-                <div className="py-4"></div>
               </div>
             </div>
             <div className="btn-toolbar justify-content-between">
               <div className="btn-group">
-                <button type="submit" className="btn btn-primary">
-                  share
+                <button type="submit" className="btn">
+                  Share
                 </button>
               </div>
               <div className="btn-group">
                 <button
                   id="btnGroupDrop1"
                   type="button"
-                  className="btn btn-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
+                  className="btn-link dropdown-toggle"
                 >
                   <i className="fa fa-globe"></i>
                 </button>
-                <div
-                  className="dropdown-menu dropdown-menu-right"
-                  aria-labelledby="btnGroupDrop1"
-                >
+                <div className="dropdown-menu">
                   <a className="dropdown-item" href="#">
                     <i className="fa fa-globe"></i> Public
                   </a>

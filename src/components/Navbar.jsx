@@ -1,9 +1,10 @@
 import React from "react";
+import './Navbar.css'; // Importa o arquivo CSS
 
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-light bg-white">
+      <nav className="navbar">
         <a href="#" className="navbar-brand">
           React Bootsbook
         </a>
@@ -14,16 +15,11 @@ export default function Navbar() {
               className="form-control"
               aria-label="Recipient's username"
               aria-describedby="button-addon2"
+              placeholder="Search"
             />
-            <div className="input-group-append">
-              <button
-                className="btn btn-outline-primary"
-                type="button"
-                id="button-addon2"
-              >
-                <i className="fa fa-search"></i>
-              </button>
-            </div>
+            <button className="btn btn-outline-primary" type="button" id="button-addon2">
+              <i className="fa fa-search"></i>
+            </button>
           </div>
         </form>
       </nav>

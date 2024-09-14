@@ -1,0 +1,66 @@
+body {
+  background-color: #f5f6fa;
+}
+
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.column {
+  padding: 0 15px;
+}
+
+.left-sidebar, .right-sidebar {
+  flex-basis: 25%;
+}
+
+.main-content {
+  flex-basis: 50%;
+}
+
+.card {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title, .card-subtitle {
+  font-family: 'Arial', sans-serif;
+}
+
+input[type="text"] {
+  width: 200px;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.btn-link {
+  color: #007bff;
+}
+
+.dropdown-menu {
+  min-width: 120px;
+}
+
+.custom-file-input {
+  cursor: pointer;
+}

@@ -1,0 +1,109 @@
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    width: 45px;
+  }
+  
+  .user-info {
+    margin-left: 10px;
+  }
+  
+  .user-info .username {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .user-info .full-name {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .card-body {
+    padding: 10px 0;
+  }
+  
+  .card-body .time {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .badge {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .card-footer a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  
+  .card-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  
