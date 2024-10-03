@@ -1,0 +1,7 @@
+#root {
+  margin: 0 auto;
+  padding: 0; /* Remover o padding que pode estar empurrando o conteúdo */
+  text-align: center;
+  width: 100%; /* Ocupa toda a largura da página */
+  height: 100vh; /* Define a altura completa da janela de visualização */
+}
