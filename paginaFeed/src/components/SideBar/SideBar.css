@@ -1,27 +1,35 @@
 .sidebar {
     width: 250px;
+   
     background-color: #000000;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    /* padding: 38px; */
     height: 100vh; /* Faz com que o sidebar ocupe a altura completa */
   }
   
   .profile {
     text-align: center;
     margin-bottom: 20px;
+    
   }
   
   .profile-pic {
     border-radius: 50%;
     border: 2px solid #a83eff;
-  }
+    width: 200px;
+    height: 200px;  /* Certifique-se de definir a altura também */
+    margin-bottom: -40px;
+    margin-top: 40px;
+}
+
   
   nav ul {
     list-style: none;
     padding: 0;
+    
   }
   
   nav li {
@@ -30,9 +38,13 @@
     color: #ffffff;
     font-size: 1.2rem;
     transition: color 0.2s ease;
+    font-size: 30px;
   }
   
   nav li:hover {
     color: #a83eff;
+  }
+  .nickname{
+    font-size: 50px;
   }
   
