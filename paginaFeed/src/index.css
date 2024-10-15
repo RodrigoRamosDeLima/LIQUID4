@@ -40,6 +40,7 @@ body {
   align-items: center;
   min-height: 100vh;
   min-width: 320px;
+  
 }
 
 /* Cabeçalhos */
@@ -111,7 +112,7 @@ li {
   margin: 10px 0;
 }
 
-/* Media Queries para melhor responsividade */
+/* Media Queries para melhor responsividade
 @media (max-width: 768px) {
   body {
     flex-direction: column;
@@ -125,19 +126,19 @@ li {
   button {
     width: 100%;
   }
-}
+} */
 
 /* Estilo preferencial para tema claro */
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     --background-color: #f9f9f9;
     --text-color: #213547;
     --secondary-background-color: #ffffff;
     --primary-color: #a83eff;
     --hover-color: #747bff;
-  }
+  } */
 
-  body {
+  /* body {
     background-color: var(--background-color);
   }
 
@@ -151,4 +152,4 @@ li {
     border: 1px solid #ccc;
     color: #213547;
   }
-}
+} */

@@ -18,7 +18,71 @@ function Feed() {
         "½ limão",
         "2 fatias de laranja"
       ],
-      imageUrl: "https://via.placeholder.com/300x200"
+      imageUrl: "https://via.placeholder.com/350x350"
+    },
+    {
+      id: 2,
+      user: "RODRIGO",
+      title: "SUPERB COQUETEL: Um drink de cerveja amanteigada.",
+      description: "Aqui em casa temos a tradição de assistir ao Masterchef...",
+      ingredients: [
+        "1 colher de sopa de geleia de goiaba",
+        "1 colher de sopa de açúcar",
+        "60 ml de água",
+        "60 ml de conhaque",
+        "30 ml de rum",
+        "½ limão",
+        "2 fatias de laranja"
+      ],
+      imageUrl: "https://via.placeholder.com/350x350"
+    },
+    {
+      id: 3,
+      user: "RODRIGO",
+      title: "SUPERB COQUETEL: Um drink de cerveja amanteigada.",
+      description: "Aqui em casa temos a tradição de assistir ao Masterchef...",
+      ingredients: [
+        "1 colher de sopa de geleia de goiaba",
+        "1 colher de sopa de açúcar",
+        "60 ml de água",
+        "60 ml de conhaque",
+        "30 ml de rum",
+        "½ limão",
+        "2 fatias de laranja"
+      ],
+      imageUrl: "https://via.placeholder.com/350x350"
+    },
+    {
+      id: 4,
+      user: "RODRIGO",
+      title: "SUPERB COQUETEL: Um drink de cerveja amanteigada.",
+      description: "Aqui em casa temos a tradição de assistir ao Masterchef...",
+      ingredients: [
+        "1 colher de sopa de geleia de goiaba",
+        "1 colher de sopa de açúcar",
+        "60 ml de água",
+        "60 ml de conhaque",
+        "30 ml de rum",
+        "½ limão",
+        "2 fatias de laranja"
+      ],
+      imageUrl: "https://via.placeholder.com/350x350"
+    },
+    {
+      id: 5,
+      user: "RODRIGO",
+      title: "SUPERB COQUETEL: Um drink de cerveja amanteigada.",
+      description: "Aqui em casa temos a tradição de assistir ao Masterchef...",
+      ingredients: [
+        "1 colher de sopa de geleia de goiaba",
+        "1 colher de sopa de açúcar",
+        "60 ml de água",
+        "60 ml de conhaque",
+        "30 ml de rum",
+        "½ limão",
+        "2 fatias de laranja"
+      ],
+      imageUrl: "https://via.placeholder.com/350x350"
     }
   ];
 

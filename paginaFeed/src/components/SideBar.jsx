@@ -5,7 +5,7 @@ function Sidebar({ setActivePage }) {
   return (
     <div className="sidebar">
       <div className="profile">
-        <img src="https://via.placeholder.com/150" alt="Perfil" className="profile-pic" />
+        <img src="https://via.placeholder.com/300" alt="Perfil" className="profile-pic" />
         <h3>RODRIGO</h3>
       </div>
       <nav>

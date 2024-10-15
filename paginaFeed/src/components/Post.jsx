@@ -1,5 +1,6 @@
 import React from 'react';
 import './Post.css';
+import CommentSection from './CommentSection';
 
 function Post({ post }) {
   return (
@@ -15,6 +16,9 @@ function Post({ post }) {
       </ul>
       <img src={post.imageUrl} alt="Drink" />
       <button className="edit-button">Editar</button>
+{/* 
+      Adiciona a sessão de comentários
+      <CommentSection comments={post.comments} /> */}
     </div>
   );
 }

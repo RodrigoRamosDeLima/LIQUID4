@@ -1,6 +1,7 @@
 .app {
   display: flex;
   height: 100vh;  /* Ocupa toda a altura da tela */
+  
 }
 
 .main-content {
@@ -9,4 +10,5 @@
   background-color: #1c1c1c;
   display: flex;
   flex-direction: column;
+  
 }
