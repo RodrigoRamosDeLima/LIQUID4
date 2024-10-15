@@ -20,8 +20,12 @@ Personalize seu perfil com foto, bio e informações de usuário.
 BarBot (Assistente de Coquetéis):
 Coloque as bebidas que você tem em casa, e o BarBot, usando a API do ChatGPT, sugerirá drinks que você pode fazer. Ele também fornecerá a história e a receita de cada drink.
 
+
 Tecnologias Utilizadas
 
+
 Frontend: React
+
 Backend: Spring Boot, Java, Node
+
 Banco de Dados: PostgreSQL
