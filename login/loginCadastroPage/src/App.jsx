@@ -1,5 +1,6 @@
 import React from 'react';
 import LoginCadastro from './components/LoginCadastro';
+import './App.css'
 
 function App() {
   return (
