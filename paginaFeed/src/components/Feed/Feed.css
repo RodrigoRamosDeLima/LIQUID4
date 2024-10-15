@@ -1,0 +1,15 @@
+.feed {
+    flex-grow: 1;
+    overflow-y: auto;  /* Permite rolagem se houver muitos posts */
+    display: flex;
+    flex-direction: column;
+<<<<<<< HEAD:paginaFeed/src/components/Feed.css
+    gap: 20px;
+    
+=======
+    /* gap: 20px; */
+    
+   
+>>>>>>> 33e4ed1b6818d0869b4d91fc101f5dcb47d2d46b:paginaFeed/src/components/Feed/Feed.css
+  }
+  

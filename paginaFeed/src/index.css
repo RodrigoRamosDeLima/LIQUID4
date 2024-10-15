@@ -1,22 +1,24 @@
-/* Definições globais */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
 :root {
-  /* Fontes e cores principais */
-  font-family: 'Inter', sans-serif;
+  font-family: "Oswald", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  
-  /* Cores principais do tema */
-  --primary-color: #a83eff;
-  --background-color: #242424;
-  --text-color: rgba(255, 255, 255, 0.87);
-  --secondary-background-color: #1c1c1c;
-  --hover-color: #535bf2;
-
-  /* Suavização e rendering de fontes */
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --primary-color: #a83eff;
+  --background-color: #242424;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --secondary-background-color: #1c1c1c;
+  --hover-color: #a83eff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 /* Links */
@@ -38,9 +40,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   min-height: 100vh;
   min-width: 320px;
   
+=======
+  /* min-height: 100vh;
+  min-width: 320px; */
+>>>>>>> 33e4ed1b6818d0869b4d91fc101f5dcb47d2d46b
 }
 
 /* Cabeçalhos */
@@ -112,8 +119,13 @@ li {
   margin: 10px 0;
 }
 
+<<<<<<< HEAD
 /* Media Queries para melhor responsividade
 @media (max-width: 768px) {
+=======
+/* Media Queries para melhor responsividade */
+/* @media (max-width: 768px) {
+>>>>>>> 33e4ed1b6818d0869b4d91fc101f5dcb47d2d46b
   body {
     flex-direction: column;
     align-items: flex-start;

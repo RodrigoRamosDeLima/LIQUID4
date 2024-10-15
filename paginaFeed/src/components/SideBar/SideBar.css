@@ -1,0 +1,63 @@
+.sidebar {
+<<<<<<< HEAD:paginaFeed/src/components/SideBar.css
+    width: 350px;
+=======
+    width: 250px;
+   
+>>>>>>> 33e4ed1b6818d0869b4d91fc101f5dcb47d2d46b:paginaFeed/src/components/SideBar/SideBar.css
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+<<<<<<< HEAD:paginaFeed/src/components/SideBar.css
+    padding: 20px;
+    
+=======
+    /* padding: 38px; */
+>>>>>>> 33e4ed1b6818d0869b4d91fc101f5dcb47d2d46b:paginaFeed/src/components/SideBar/SideBar.css
+    height: 100vh; /* Faz com que o sidebar ocupe a altura completa */
+  }
+  
+  .profile {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    border: 2px solid #a83eff;
+    width: 200px;
+    height: 200px;  /* Certifique-se de definir a altura também */
+    margin-bottom: -40px;
+    margin-top: 40px;
+}
+
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  nav li {
+    padding: 10px 0;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: color 0.2s ease;
+<<<<<<< HEAD:paginaFeed/src/components/SideBar.css
+    
+=======
+    font-size: 30px;
+>>>>>>> 33e4ed1b6818d0869b4d91fc101f5dcb47d2d46b:paginaFeed/src/components/SideBar/SideBar.css
+  }
+  
+  nav li:hover {
+    color: #a83eff;
+  }
+  .nickname{
+    font-size: 50px;
+  }
+  

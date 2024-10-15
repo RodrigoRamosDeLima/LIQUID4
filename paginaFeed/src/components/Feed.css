@@ -1,9 +1,0 @@
-.feed {
-    flex-grow: 1;
-    overflow-y: auto;  /* Permite rolagem se houver muitos posts */
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    
-  }
-  

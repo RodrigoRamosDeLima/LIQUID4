@@ -1,14 +1,24 @@
 .app {
   display: flex;
   height: 100vh;  /* Ocupa toda a altura da tela */
+<<<<<<< HEAD
   
+=======
+  width: 100%;
+ 
+>>>>>>> 33e4ed1b6818d0869b4d91fc101f5dcb47d2d46b
 }
 
 .main-content {
   flex-grow: 1;
-  padding: 20px;
+  padding: 10px;
   background-color: #1c1c1c;
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 33e4ed1b6818d0869b4d91fc101f5dcb47d2d46b
   
 }
+

@@ -1,10 +1,18 @@
 .header {
     display: flex;
+<<<<<<< HEAD:paginaFeed/src/components/Header.css
     justify-content: space-between;
     background-color: #000000;
     padding: 20px;
     
 
+=======
+    justify-content:space-around;
+    /* background-color: #000000;
+    padding: 35px; */
+    gap: 80px;
+    
+>>>>>>> 33e4ed1b6818d0869b4d91fc101f5dcb47d2d46b:paginaFeed/src/components/Header/Header.css
   }
   
   .header-button {
@@ -12,9 +20,10 @@
     border: none;
     padding: 10px 20px;
     color: white;
-    font-size: 1rem;
+    font-size: 1.3rem;
     cursor: pointer;
     border-radius: 5px;
+    font-family: "Oswald", sans-serif;
   }
   
   .header-button:hover {
